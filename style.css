@@ -712,8 +712,8 @@ li{
 
 .container-1::after{
 	
-	background: rgba(0, 0, 0, 0.1);
-	box-shadow: inset  1px 10px #000000, 
+	background: rgba(0, 0, 0, 0.4);
+	box-shadow: inset  50px 50px 100px #000000, 
 }
 
 
