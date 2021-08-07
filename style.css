@@ -710,15 +710,6 @@ li{
 
 @media(max-width: 425px){
 
-.container-1::after{
-	
-	background: rgba(0, 0, 0, 0.4);
-	box-shadow: inset  50px 50px 100px #000000, 
-}
-
-
-
-
 .main-nav{
 	
     margin-bottom: 10px;
@@ -861,38 +852,3 @@ li{
 }
 
 
-/*@media (max-width: 340px) and (orientation: landscape){
-
-.main-nav{
-	
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-}
-
-.nav-logo{
-    width: 50px;
-    height: 30px;
-    margin-top: 5px;
-    margin-left: 15px;
-}
-
-.nav-item-button button{
-    padding: 5px 10px;
-    font-size: 1rem;
-}
-.nav-items{
-    gap: 10px;
-    margin-top: 20px;
-    margin-right: 15px;
-}
-
-.nav-item-dropbox{
-    border: 2px solid white ;
-    padding: 6px 5px;
-}
-
-.nav-item-dropbox select{
-     font-size: 0.9rem;
-}
-
-}*/
