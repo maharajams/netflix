@@ -550,6 +550,13 @@ li{
       /*768*/
 
 @media (max-width: 768px){
+	
+.container-1::after{
+	
+	background: rgba(0, 0, 0, 0.2);
+	box-shadow: inset 20px 50px 250px #000000, inset -20px -50px 250px #000000;
+}
+	
 
 .main-content{
 	width: 80%;
@@ -696,6 +703,12 @@ li{
 			/*425*/
 
 @media(max-width: 425px){
+	
+.container-1::after{
+	
+	background: rgba(0, 0, 0, 0.4);
+	box-shadow: inset  50px 50px 100px #000000, 
+}	
 
 .main-nav{
 	
