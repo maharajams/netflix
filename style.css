@@ -34,7 +34,7 @@ body{
 
 .main-nav{
 	position: relative;
-	z-index: 2;
+	z-index: 10;
 	 display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,7 +101,7 @@ button:hover{
 
 .main-content{
 	position: relative;
-	z-index: 2;
+	z-index: 10;
 	width: 70%;
 	margin: 140px auto;
 	padding: 50px auto;
@@ -423,13 +423,6 @@ li{
 @media (max-width: 1024px){
 
 
-.container-1::after{
-	
-	background: rgba(0, 0, 0, 0.3);
-	box-shadow: inset 20px 100px 250px #000000, inset -20px -50px 250px #000000;
-}
-
-
 .main-content{
 	width: 88%;
 	margin: 140px auto 180px;
@@ -557,12 +550,6 @@ li{
       /*768*/
 
 @media (max-width: 768px){
-
-.container-1::after{
-	
-	background: rgba(0, 0, 0, 0.5);
-	box-shadow: inset 50px 100px 250px #000000, inset -50px -70px 250px #000000;
-}
 
 .main-content{
 	width: 80%;
